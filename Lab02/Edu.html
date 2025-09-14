@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Website</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-white bg-primary border-bottom">
+    <div class="container">
+        <a class="navbar-brand" href="#">Education Site</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#featured-courses">Courses</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<section class="bg-light text-center py-5">
+    <div class="container">
+        <h1>Start Learning Today!</h1>
+        <p>Learn new skills and advance your career</p>
+        <button class="btn btn-primary btn-lg" onclick="location.href='#featured-courses'">Browse Courses</button>
+    </div>
+</section>
+
+<section class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-5">Course Categories</h2>
+        <div class="row">
+            <div class="col-md-4 text-center mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h3>💻</h3>
+                        <h4>Programming</h4>
+                        <p>Learn to code with modern languages</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 text-center mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h3>🎨</h3>
+                        <h4>Design</h4>
+                        <p>Create beautiful websites and graphics</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 text-center mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h3>📊</h3>
+                        <h4>Business</h4>
+                        <p>Master business and marketing skills</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="bg-light py-5">
+    <div class="container">
+        <h2 class="text-center mb-5" id="featured-courses">Featured Courses</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=400&h=250&fit=crop" class="card-img-top" alt="Web Development">
+                    <div class="card-body">
+                        <h5>Web Development</h5>
+                        <p>Instructor: Omar Mosleh</p>
+                        <button class="btn btn-success">Enroll</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1555255707-c07966088b7b?w=400&h=250&fit=crop" class="card-img-top" alt="AI Fundamentals">
+                    <div class="card-body">
+                        <h5>AI Fundamentals</h5>
+                        <p>Instructor: Omar Ahmed</p>
+                        <button class="btn btn-success">Enroll</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=400&h=250&fit=crop" class="card-img-top" alt="Mobile App Development">
+                    <div class="card-body">
+                        <h5>Mobile App Development</h5>
+                        <p>Instructor: ......</p>
+                        <button class="btn btn-success">Enroll</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-5">Student Feedback</h2>
+        <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active text-center">
+                    <div class="card mx-auto" style="max-width: 600px;">
+                        <div class="card-body">
+                            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fpngimg.com%2Fuploads%2Fstudent%2Fstudent_PNG124.png&f=1&nofb=1&ipt=fd02df4d7fe27aeb28b092d2c72a7aa834e04bd11d30375d97a1b8aec8ecdd52" class="rounded-circle mb-3" alt="Sarah Johnson" style="width: 100px; height: 100px; object-fit: cover;">
+                            <h5>Amira</h5>
+                            <p>"Great courses! I learned so much and got a new job."</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item text-center">
+                    <div class="card mx-auto" style="max-width: 600px;">
+                        <div class="card-body">
+                            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fas2.ftcdn.net%2Fv2%2Fjpg%2F05%2F95%2F27%2F81%2F1000_F_595278130_pm019aWdqNojWHZsWiUcPi3sthitC1Gk.jpg&f=1&nofb=1&ipt=73a85aa7c3912b04f098432c92c1cdda5922ec75ca7abfaf67c655c2162c5e86" class="rounded-circle mb-3" alt="Mike Davis" style="width: 100px; height: 100px; object-fit: cover;">
+                            <h5>Zeyad</h5>
+                            <p>"Excellent instructors and well-structured content."</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item text-center">
+                    <div class="card mx-auto" style="max-width: 600px;">
+                        <div class="card-body">
+                            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fpngimg.com%2Fuploads%2Fstudent%2Fstudent_PNG93.png&f=1&nofb=1&ipt=44da4ffd5545c99b60b17d94c8ba46abd4a6f72cc6c1d9176bccaa8ce9bc736d" class="rounded-circle mb-3" alt="Lisa Brown" style="width: 100px; height: 100px; object-fit: cover;">
+                            <h5>Youssef</h5>
+                            <p>"Best learning experience I've had online!"</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </div>
+</section>
+
+<section class="bg-light py-5">
+    <div class="container">
+        <h2 class="text-center mb-5">FAQ</h2>
+        <div class="accordion" id="faqAccordion">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                        How much do courses cost?
+                    </button>
+                </h2>
+                <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Our courses range from $29 to $199. We offer discounts for students.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                        How long are the courses?
+                    </button>
+                </h2>
+                <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Course lengths vary from 2 hours to 40 hours. You can learn at your own pace.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                        Do I get a certificate?
+                    </button>
+                </h2>
+                <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Yes, you receive a certificate of completion for each course you finish.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                        Is there support available?
+                    </button>
+                </h2>
+                <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Yes, we provide 24/7 support via email and live chat.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="bg-dark text-white py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4" id="about">
+                <h5>About Us</h5>
+                <p>We are an online learning platform dedicated to helping you achieve your goals through quality education.</p>
+            </div>
+            <div class="col-md-4">
+                <h5>Quick Links</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-white">Home</a></li>
+                    <li><a href="#featured-courses" class="text-white">Courses</a></li>
+                    <li><a href="#about" class="text-white">About</a></li>
+                    <li><a href="#" class="text-white">Contact</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h5>Contact Info</h5>
+                <p>
+                    Email: info@Education Site.com<br>
+                    Phone: (555) 123-4567<br>
+                    Address: 123 Education St, Learning City, LC 12345
+                </p>
+            </div>
+        </div>
+        <hr>
+        <div class="text-center">
+            <p>&copy; 2025 Education Site. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
